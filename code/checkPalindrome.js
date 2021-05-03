@@ -5,5 +5,4 @@ const checkPalindrome = (str) => {
     reversedString += str[str.length-i-1];
   }
   return str === reversedString;
-} 
-console.log(checkPalindrome('aca'));
+}
