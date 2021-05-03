@@ -7,3 +7,4 @@ const reduce = (array, callback, initialValue = null) => {
 }
 
 console.log(reduce([1,1,2 ,2], (a,b) => a - b, 0))
+//TODO fix implementation to work for all types of input callbacks
